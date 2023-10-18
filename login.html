@@ -4,27 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign In</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="nav.css" />
   </head>
-  <body>
-    <!--THIS IS THE HOME BUTTON LOGO -->
-    <button>
-      <a href="home.html"> HOME</a>
-      <img
-        src="https://as1.ftcdn.net/v2/jpg/04/75/85/06/1000_F_475850614_NV7T6VRqGASmv4p3QQwIZoMmDhFXzQVL.jpg"
-        width="100px"
-      />
-    </button>
+  <body class="log-in-page">
+    <!--THIS IS THE NAVIGATION MENU-->
+    <nav>
+      <div class="navigation-menu">
+        <div>
+          <!--THIS IS THE HOME BUTTON AND LOGO -->
+          <button>
+            <a href="home.html"></a>
+            <img
+              class="home-button-image"
+              src="https://as1.ftcdn.net/v2/jpg/04/75/85/06/1000_F_475850614_NV7T6VRqGASmv4p3QQwIZoMmDhFXzQVL.jpg"
+            />
+          </button>
+        </div>
+        <!--THIS IS THE BUTTON THAT TAKES YOU TO THE MENU-->
+        <div>
+          <button class="menu-button">
+            <a href="menu.html">MENU</a>
+          </button>
+        </div>
+        <div>
+          <!--THIS IS THE BUTTON THAT TAKES YOU TO BUILD YOUR OWN (includes table)-->
+          <button class="custom-button">
+            <a href="custom.html">BUILD YOUR OWN</a>
+          </button>
+        </div>
+
+        <!--THIS IS THE BUTTON THAT TAKES YOU TO THE LOG IN PAGE-->
+        <div>
+          <button class="login-button">
+            <a href="login.html">LOG IN</a>
+          </button>
+        </div>
+      </div>
+    </nav>
     <header>
-      <h1>Sign In for a faster check out</h1>
+      <h1 style="text-align: center; font-family: fantasy">
+        Sign In for a faster check out
+      </h1>
     </header>
 
     <!--THIS IS THE LOGIN FOR FOR OUR USER-->
 
-    <form>
-      <label for="email">Email</label><br />
+    <form
+      id="log-in-form"
+      style="text-align: center; padding: 20px; margin: 15px"
+    >
+      <label form="email">Email</label><br />
       <input type="email" id="email" name="email" /> <br />
 
-      <label for="password">Password</label> <br />
+      <label form="password">Password</label> <br />
 
       <input type="password" id="password" name="password" /> <br />
       <input type="submit" value="submit"

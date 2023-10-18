@@ -4,27 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="
+nav.css"
+    />
+    <link rel="stylesheet" href="index.css" />
   </head>
-  <body>
+  <body class="menu">
+    <!--THIS IS THE NAVIGATION MENU-->
     <nav>
-      <!--THIS IS OUR HOME BUTTON-->
-      <button>
-        <a href="home.html">Home</a>
-        <img
-          src="https://as1.ftcdn.net/v2/jpg/04/75/85/06/1000_F_475850614_NV7T6VRqGASmv4p3QQwIZoMmDhFXzQVL.jpg"
-          width="100px"
-        />
-      </button>
+      <div class="navigation-menu">
+        <div>
+          <!--THIS IS THE HOME BUTTON AND LOGO -->
+          <button>
+            <a href="home.html">
+              <img
+                class="home-button-image"
+                src="https://as1.ftcdn.net/v2/jpg/04/75/85/06/1000_F_475850614_NV7T6VRqGASmv4p3QQwIZoMmDhFXzQVL.jpg"
+            /></a>
+          </button>
+        </div>
+        <!--THIS IS THE BUTTON THAT TAKES YOU TO THE MENU-->
+        <div>
+          <button class="menu-button">
+            <a href="menu.html">MENU</a>
+          </button>
+        </div>
+        <div>
+          <!--THIS IS THE BUTTON THAT TAKES YOU TO BUILD YOUR OWN (includes table)-->
+          <button class="custom-button">
+            <a href="custom.html">Build Your own</a>
+          </button>
+        </div>
 
-      <!--Custom Button-->
-      <button>
-        <a href="custom.html">Build your own</a>
-      </button>
-
-      <!--THIS IS THE BUTTON THAT TAKES YOU TO THE LOG IN PAGE-->
-      <button>
-        <a href="login.html">LOG IN</a>
-      </button>
+        <!--THIS IS THE BUTTON THAT TAKES YOU TO THE LOG IN PAGE-->
+        <div>
+          <button class="login-button">
+            <a href="login.html">LOG IN</a>
+          </button>
+        </div>
+      </div>
     </nav>
 
     <!--PAGE HEADER-->
@@ -92,8 +113,5 @@
       <li>Lemonade $5</li>
       <li>Water $2</li>
     </ul>
-    <div>
-      <a href="custom.html">Build your own</a>
-    </div>
   </body>
 </html>

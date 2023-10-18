@@ -1,0 +1,76 @@
+.navigation-menu {
+  margin-top: 100px;
+height: 60px;
+  display: flex;
+  flex-direction: row;
+ justify-content: flex-start;
+ margin-bottom: 200px;
+ margin-left: 10px;  margin-top: 100px;
+height: 60px;
+
+}
+
+.home-button-image {
+  width: 200px;
+  border-radius: 200px;
+}
+
+.home-button {
+  height: 70px;
+  width: 70px;
+  border-radius: 30px;
+  margin: 100px;
+  border-style: solid;
+  cursor: pointer;
+  transition: background-color 0.1s;
+
+}
+
+.home-button:hover {
+background-attachment: fixed;
+background-color: rgb(184, 27, 53); 
+cursor: pointer;
+
+}
+
+
+
+.menu-button {
+background-color: chocolate;
+padding: 35px;
+font-size: medium;
+border-radius: 30px;
+flex: 1;
+font-family: fantasy;
+font-weight: bold;
+color: bisque;
+transition: background-color: 0.5s;
+cursor: pointer;
+}
+
+.menu-button: :hover{
+background-color: rgb(69, 41, 4);
+}
+
+
+
+
+
+
+.custom-button{
+  background-color: darkgreen;
+padding: 20px;
+font-size: medium;
+border-radius: 30px;
+flex: 1;
+font-family: fantasy;
+}
+
+.login-button{
+background-color: rgb(243, 216, 11);
+padding: 20px;
+font-size: medium;
+border-radius: 30px;
+flex: 1;
+font-family: fantasy;
+}
